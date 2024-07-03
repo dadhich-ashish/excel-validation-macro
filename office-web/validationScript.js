@@ -1,5 +1,5 @@
 function main(workbook: ExcelScript.Workbook) {
-    let sheet = workbook.getWorksheet("ITSM Manage Firmware Template");
+    let sheet = workbook.getWorksheet("Template");
 
     const snColumn = 3; // Column D
     const ipColumn = 5; // Column F
